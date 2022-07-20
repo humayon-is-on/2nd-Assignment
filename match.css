@@ -109,7 +109,7 @@ button {
 }
 
 footer {
-    width: 1040px;
+    width: 100%;
     margin: 20px auto;
     padding: 10px;
     display: flex;
