@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mukta&family=Niconne&family=Pacifico&family=Poppins:wght@500&family=Raleway:ital@1&family=Ubuntu&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -12,18 +13,27 @@ header {
     margin: 20px auto;
 }
 
+body {
+    font-family: 'Itim', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Niconne', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     display: flex;
 }
 
 .text {
     width: 50%;
-    margin: 55px;
+    margin: 50px;
 }
 
 .text h1 {
-    font-size: 80px;
-    margin: auto 10px;
+    font-size: 60px;
+    margin: 0 10px;
+    line-height: 70px;
 }
 
 .text a {
@@ -99,15 +109,16 @@ section {
     width: 100%;
 }
 
-.talk h4 {
+.talk h5 {
     margin: 5px;
+    padding: 2px;
 }
 
 .talk a {
     margin: 10px;
     text-decoration: none;
-    color: black;
-    border: 1px solid black;
+    color: rgb(46, 46, 46);
+    border: 1px solid rgb(51, 51, 51);
     padding: 5px 10px;
     border-radius: 5px;
 }
