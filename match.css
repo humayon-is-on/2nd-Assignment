@@ -109,7 +109,7 @@ button {
 }
 
 footer {
-    width: 100%;
+    width: 1040px;
     margin: 20px auto;
     padding: 10px;
     display: flex;
@@ -125,10 +125,11 @@ footer h1 {
     text-align: center;
 }
 
-hr {
+
+/* hr {
     width: 90vw;
     border-color: rgb(47, 47, 47);
-}
+} */
 
 .foot-info {
     color: rgb(147, 147, 147);
