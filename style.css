@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 1040px;
+    height: 500px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+}
+
+.text {
+    width: 50%;
+    margin: 55px;
+}
+
+.text h1 {
+    font-size: 80px;
+    margin: auto 10px;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 45, 45);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.pic img {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 400px;
+    height: 450px;
+}
+
+main {
+    width: 1040px;
+    display: flex;
+    margin: 20px auto;
+}
+
+aside {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.btns {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.btns .btn {
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    background-color: rgb(255, 53, 53);
+}
+
+#btn a {
+    color: white;
+}
+
+.btns .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* margin: auto 20px; */
+}
+
+.talk {
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+.talk img {
+    width: 100%;
+}
+
+.talk h4 {
+    margin: 5px;
+}
+
+.talk a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.talk div {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(110, 110, 110);
+}
+
+.view-btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    visibility: hidden;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(255, 20, 20);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    height: 350px;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+hr {
+    width: 900px;
+    border-color: rgb(47, 47, 47);
+}
+
+.foot-info {
+    color: rgb(147, 147, 147);
+    display: flex;
+    justify-content: center;
+}
+
+.foot-info p {
+    margin: 0 25px;
+}
