@@ -92,6 +92,11 @@
                 color: black;
             }
             
+            .match:hover {
+                color: rgb(255, 255, 255);
+                background-color: rgb(255, 55, 55);
+            }
+            
             section {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
